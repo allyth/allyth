@@ -1,0 +1,23 @@
+---
+layout: page
+title: Drawing
+---
+<div class="container">
+    <div class="row about">
+        <div class="col-sm-12">
+            <h2>Drawing</h2>
+
+            <ul class="gallery">
+            {% for drawing in site.drawings %}
+                <li style="background-image: url({{ site.baseurl }}{{ drawing.image }});">
+                    <a href="{{ site.baseurl }}{{ drawing.image }}"></a>
+
+                    {% if drawing.showTitle %}
+                    <span class="title">{{ drawing.title }}</span>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

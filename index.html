@@ -1,5 +1,5 @@
 ---
-title: Striking Color
+title: Drawing My Way Through Life
 subTitle: Drawing My Way Through Life
 ---
 
@@ -7,6 +7,12 @@ subTitle: Drawing My Way Through Life
 <html>
     <head>
 	    {% include head.html %}
+        <link href="{{ site.baseurl }}/css/menu.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/css/home.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/css/slick.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/css/slick-theme.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
 
 	<body>
@@ -17,32 +23,77 @@ subTitle: Drawing My Way Through Life
             <div class="intro-header">
 
                 <div class="container">
-
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="intro-message">
                                 <h1>{{ page.title }}</h1>
-                                <h3>{{ page.subTitle }}</h3>
-                                <hr class="intro-divider">
+                                <!--<h3>{{ page.subTitle }}</h3>-->
+                                <!--<hr class="intro-divider">
                                 <ul class="list-inline intro-social-buttons">
                                     {% for social in site.social %}
                                     <li>
                                         <a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
                                     </li>
                                     {% endfor %}
-                                </ul>
+                                </ul>-->
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <!-- /.container -->
 
             </div>
             <!-- /.intro-header -->
+
+            <div style="height: 100px; background-color: black;">
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel">
+                    {% for drawing in site.drawings %}
+                        <div style="background-image: url({{ site.baseurl }}{{ drawing.image }}" class="carousel-item">
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="carousel-prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+                <div class="carousel-next"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+            </div>
+
+            </div>
         </section>
 
 		{% include footer.html %}
 		{% include js.html %}
+        <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                prevArrow: $('.carousel-prev'),
+                nextArrow: $('.carousel-next'),
+                responsive: [
+                    {
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        });
+        </script>
+        <script src="{{ site.baseurl }}/js/slick.min.js"></script>
 	</body>
 </html>

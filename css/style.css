@@ -10,15 +10,8 @@ html {
     height: 100%;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
 }
 
 .lead {
@@ -27,50 +20,27 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
+    height: 500px;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/site/intro-bg.jpg) no-repeat;
     background-size: cover;
-}
-
-nav.main-menu {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-color: rgba(81, 81, 81, 0.2);
-}
-
-nav.main-menu .navbar-nav > li > a, nav.main-menu .navbar-brand {
-    color: #ededed;
-}
-
-nav.main-menu .navbar-nav > li > a:hover,
-nav.main-menu .navbar-nav > li.active > a {
-    color: black;
-}
-
-nav.main-menu .navbar-nav > li.active > a,
-nav.main-menu .active > a:focus {
-    color: #ededed;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    background-color: rgba(0, 0, 0, 0.6);
-    color: rgba(237, 237, 237, 1);
+    background-position: center bottom;
+    position: relative;
+    text-align: center;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 8%;
 }
 
 .intro-message > h1 {
-    margin: 0;
+    font-family: "Pacifico","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 70px;
+    margin-top: 130px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .intro-divider {
@@ -184,7 +154,19 @@ nav.main-menu .active > a:focus {
 
 footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
+}
+
+footer ul.footer-menu-links {
+    padding: 0px;
+}
+
+footer ul.footer-menu-links li {
+    display: inline-block;
+}
+
+span.footer-menu-links-separator {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 p.copyright {

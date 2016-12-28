@@ -1,0 +1,47 @@
+nav.main-menu {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: rgba(81, 81, 81, 0.2);
+    height: 50px;
+}
+
+
+@media (max-width: 768px) {
+    nav.main-menu .navbar-nav {
+        background-color: #a4a08d;
+        margin: 0px -15px; 
+    }
+}
+
+nav.main-menu .navbar-nav > li > a, nav.main-menu .navbar-brand {
+    color: #ededed;
+    font-family: "Pacifico","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav.main-menu .navbar-nav > li > a {
+    font-size: 22px;
+}
+
+nav.main-menu .navbar-brand {
+    font-size: 28px;
+}
+
+nav.main-menu .navbar-nav > li > a:hover,
+nav.main-menu .navbar-nav > li.active > a {
+    color: black;
+}
+
+nav.main-menu .navbar-nav > li.active > a,
+nav.main-menu .active > a:focus {
+    color: #ededed;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(237, 237, 237, 1);
+}
+
+span.icon-bar {
+    background-color: #ededed;
+}

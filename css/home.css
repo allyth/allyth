@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+    nav.main-menu .navbar-nav {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.carousel-container {
+    position: relative;
+}
+
+div.carousel-item {
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    height: 300px;
+}
+
+.carousel-prev, .carousel-next {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    opacity: 0.7;
+    top: 120px;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}

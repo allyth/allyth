@@ -1,0 +1,77 @@
+body {
+    background-image: url(../img/textures/yellow_paper.jpg);
+    background-repeat: repeat;
+    padding-top: 50px;
+}
+
+h1, h2, h3, h4 {
+    color: #5a5743;
+}
+
+div.content {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+ul.gallery {
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-left: -10px;
+    margin-right: -10px;    
+    margin-top: 15px;
+}
+
+ul.gallery li {
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #707070;
+    border-left: 1px solid #707070;
+    border-right: 1px solid #707070;
+    border-top: 1px solid #707070;
+    box-sizing: border-box;
+    display: block;
+    height: 250px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+    width: 250px;
+}
+
+ul.gallery li a {
+    display: block;
+    height: 100%;
+}
+
+ul.gallery li span.title {
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 0px;
+    border-right: 1px solid #707070;
+    border-top: 1px solid #707070;
+    border-top-right-radius: 8px;
+    color: #ededed;
+    padding: 5px 10px 5px 10px;
+    pointer-events: none;
+    position: absolute;
+    /*width: 95%;*/
+}
+
+div.content div.about {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+div.about {
+    font-size: 1.1em;
+}
+
+div.about img.me {
+    border: 10px solid #d1ccb4;
+}
+
+footer {
+    background-color: rgba(220, 215, 189, 0.6);
+    border-top: 1px solid #cdc9b0;
+}

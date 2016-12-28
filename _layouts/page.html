@@ -1,16 +1,20 @@
 ---
-title: Striking Color
 ---
 
 <!DOCTYPE html>
 <html>
     <head>
 	    {% include head.html %}
+		<link href="{{ site.baseurl }}/css/menu.css" rel="stylesheet">
+		<link href="{{ site.baseurl }}/css/page.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
 
 	<body>
 		{% include main-menu.html %}
+		<div class="content">
 		{{ content }}
+		</div>
 		{% include footer.html %}
 		{% include js.html %}
 	</body>
