@@ -25,9 +25,64 @@ title: About
             <div class="col-md-8 col-md-offset-2">
                 <h2>Other Interests</h2>
                 
-                <div style="padding: 10px 0px;">
-                    <p>I am on my school's bowling team as of 2016. I enjoy playing the guitar, video making/editing and modelling.</p>
+                <h3>Bowling</h3>
+
+                <p>
+                    <img src="/img/site/bowling-tournament-2016.jpg" />
+                </p>
+
+                <p>I am on my school's bowling team as of 2016. We recently placed third in our first JV tournament of 2016.</p>
+
+                <h3>Modeling</h3>
+                <p>Credits for the photos go to Dennis Zaremba and Marco Del Arca.</p>
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div style="background-image: url(/img/modeling/modeling01.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling02.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling03.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling04.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling05.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling06.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling07.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling08.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling09.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling10.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling12.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling13.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling14.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling15.jpg)" class="carousel-item"></div>
+                        <div style="background-image: url(/img/modeling/modeling16.jpg)" class="carousel-item"></div>
+                        
+                    </div>
+
+                    <div class="carousel-prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+                    <div class="carousel-next"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
                 </div>
+                <script>
+                $('div.carousel').slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    prevArrow: $('.carousel-prev'),
+                    nextArrow: $('.carousel-next'),
+                    responsive: [
+                        {
+                            breakpoint: 900,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+                </script>
             </div>
         </div>
     </div>
