@@ -11,6 +11,7 @@ h1, h2, h3, h4 {
 div.content {
     padding-bottom: 10px;
     padding-top: 10px;
+    position: relative;
 }
 
 ul.gallery {
@@ -74,6 +75,15 @@ div.about img.me {
 footer {
     background-color: rgba(220, 215, 189, 0.6);
     border-top: 1px solid #cdc9b0;
+}
+
+div.divider {
+    padding: 40px;
+    text-align: center;
+}
+
+div.divider img {
+    width: 150px;
 }
 
 .carousel-container {
