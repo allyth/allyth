@@ -49,8 +49,8 @@ ul.gallery li a {
 ul.gallery li span.title {
     background-color: rgba(0, 0, 0, 0.4);
     bottom: 0px;
-    border-right: 1px solid #707070;
-    border-top: 1px solid #707070;
+    border-right: 1px solid #636363;
+    border-top: 1px solid #404040;
     border-top-right-radius: 8px;
     color: #ededed;
     padding: 5px 10px 5px 10px;
