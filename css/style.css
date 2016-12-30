@@ -18,6 +18,10 @@ h1, .h1, h2, .h2, h3, .h3 {
     margin-top: 10px;
 }
 
+h3, .h3 {
+    font-size: 22px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -161,6 +165,7 @@ footer {
 }
 
 footer ul.footer-menu-links {
+    color: #428bca;
     padding: 0px;
 }
 
@@ -169,10 +174,25 @@ footer ul.footer-menu-links li {
 }
 
 span.footer-menu-links-separator {
+    color: #777;
     margin-left: 5px;
     margin-right: 5px;
+    vertical-align: middle;
 }
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.videoWrapper-16-9 {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+.videoWrapper-16-9 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
