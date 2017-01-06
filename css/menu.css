@@ -1,5 +1,5 @@
 nav.main-menu {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     border-color: rgba(81, 81, 81, 0.2);
     height: 50px;
 }
@@ -14,15 +14,15 @@ nav.main-menu {
 
 nav.main-menu .navbar-nav > li > a, nav.main-menu .navbar-brand {
     color: #ededed;
-    font-family: "Pacifico","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Arima Madurai","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 nav.main-menu .navbar-nav > li > a {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 nav.main-menu .navbar-brand {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 nav.main-menu .navbar-nav > li > a:hover,
