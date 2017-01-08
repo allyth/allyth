@@ -44,21 +44,26 @@ h3, .h3 {
 }
 
 .intro-message > h1 {
-    font-family: "Pacifico","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Arima Madurai","Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 70px;
-    margin-top: 130px;
+    margin-top: 80px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 4em;
+}
+
+.intro-message > h2 {
+    font-family: "Arima Madurai","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.8em;
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    padding: 10px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 @media(max-width:767px) {
