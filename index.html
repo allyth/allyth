@@ -44,9 +44,12 @@
 
             <div class="carousel-container">
                 <div class="carousel">
-                    {% for drawing in site.drawings %}
+                    {% assign sortedDrawings = site.drawings  | sort: 'date' | reverse %}
+                    {% for drawing in sortedDrawings %}
+                        {% if drawing.showOnHomepage %}
                         <div style="background-image: url({{ site.baseurl }}{{ drawing.image }})" class="carousel-item">
                         </div>
+                        {% endif %}
                     {% endfor %}
                 </div>
 

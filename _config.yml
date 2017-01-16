@@ -18,6 +18,7 @@ defaults:
       collection: drawings
     values:
       showTitle: true
+      showOnHomepage: false
   - scope:
       collection: photos
     values:
