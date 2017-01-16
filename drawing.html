@@ -8,7 +8,8 @@ title: Drawing
             <h2>Drawing</h2>
 
             <ul class="gallery">
-            {% for drawing in site.drawings %}
+            {% assign sortedDrawings = (site.drawings | sort: 'date') | reverse %}
+            {% for drawing in sortedDrawings %}
                 <li style="background-image: url({{ site.baseurl }}{{ drawing.image }});">
                     <a href="{{ site.baseurl }}{{ drawing.image }}"></a>
 
