@@ -1,7 +1,7 @@
 ---
 title: 
 showTitle: false
-image: /img/drawings/Underwater.jpg
+image: /img/drawings/Undewater.jpg
 materials: pencil, blending stump
 description:
 ---
