@@ -27,45 +27,6 @@ h3, .h3 {
     font-weight: 400;
 }
 
-.intro-header {
-    height: 500px;
-    color: #f8f8f8;
-    background: url(../img/site/intro-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    position: relative;
-    text-align: center;
-}
-
-.intro-message {
-    position: relative;
-    padding-top: 10%;
-    padding-bottom: 8%;
-}
-
-.intro-message > h1 {
-    font-family: "Arima Madurai","Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 70px;
-    margin-top: 80px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 4em;
-}
-
-.intro-message > h2 {
-    font-family: "Arima Madurai","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.8em;
-    /*font-style: italic;*/
-    /*font-weight: bold;*/
-    padding: 10px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
