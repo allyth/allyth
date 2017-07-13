@@ -22,6 +22,7 @@ body {
     position: relative;
     padding-top: 10%;
     padding-bottom: 8%;
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.68);
 }
 
 .intro-message > h1 {
