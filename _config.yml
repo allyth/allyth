@@ -53,5 +53,7 @@ menu:
     url: /drawing/
   - text: Photography
     url: /photography/
+  - text: Blog
+    url: /blog/
   - text: About
     url: /about/
