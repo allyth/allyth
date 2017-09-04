@@ -4,10 +4,12 @@
 
 url: http://www.allyth.me
 title: Alexandra Maria Theodorescu
-email: strikingcolorart@gmail.com
+email: 
 author: Alexandra
 description:
 collections:
+  blog:
+    output: true
   drawings:
     output: false
   photos:
