@@ -4,21 +4,22 @@ title: Blog
 ---
 <div class="container">
     <div class="row">
-        <h2>Blog</h2>
-        <div class="col-sm-9">
-            Under construction
+        <div class="col-sm-12">
+            <h1>Blog</h1>
+            W.I.P. 
         </div>
-        <!-- <div class="col-sm-3">
-
-            <ul style="list-style: none">
-            {% assign sortedPosts = (site.blog | sort: 'date') | reverse %}
+        
+        {% assign sortedPosts = (site.posts | sort: 'date') | reverse %}
+        {% assign sortedPosts = null %}
             {% for post in sortedPosts %}
-                <li>
-                    ✽
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                </li>
+            <div class="col-sm-6">
+                <p>{{ post.date | date: "%B %d, %y" }}</p>
+                <h2>
+                    <a style="font-size: 25px" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <p>{{ post.content | split: '<!-- split -->' | first }}</p>
+                <a class="btn btn-default" href="{{ site.baseurl }}{{ post.url }}">Read this post</a>
+            </div>
             {% endfor %}
-            </ul>
-        </div> -->
     </div>
 </div>

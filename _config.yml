@@ -8,7 +8,7 @@ email:
 author: Alexandra
 description:
 collections:
-  blog:
+  posts:
     output: true
   drawings:
     output: false
