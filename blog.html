@@ -6,11 +6,9 @@ title: Blog
     <div class="row">
         <div class="col-sm-12">
             <h1>Blog</h1>
-            W.I.P. 
         </div>
         
         {% assign sortedPosts = (site.posts | sort: 'date') | reverse %}
-        {% assign sortedPosts = null %}
             {% for post in sortedPosts %}
             <div class="col-sm-6">
                 <p>{{ post.date | date: "%B %d, %y" }}</p>
