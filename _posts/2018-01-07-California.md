@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SPOC
+title: Trip to California
 image: 
 description:
 ---
