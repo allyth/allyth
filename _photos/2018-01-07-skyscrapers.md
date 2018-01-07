@@ -1,7 +1,7 @@
 ---
-title: The eclipse through eclipse glasses in De Soto, MO
+title: 
 showTitle: true
-image: /img/photos/eclipseglasses.jpg
+image: /img/photos/skyscrapers.jpg
 materials:
-description: The eclipse through eclipse glasses in De Soto, MO
+description: 
 ---
