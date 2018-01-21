@@ -1,5 +1,5 @@
 ---
-title: Michigan
+title: South Haven, Michigan
 showTitle: true
 image: /img/photos/michiganpiper.jpg
 materials:
