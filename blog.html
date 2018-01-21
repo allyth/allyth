@@ -10,7 +10,7 @@ title: Blog
         
         {% assign sortedPosts = (site.posts | sort: 'date') | reverse %}
             {% for post in sortedPosts %}
-            <div class="col-sm-6">
+            <div class="col-sm-8">
                 <h2>
                     <a style="font-size: 25px" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 </h2>
