@@ -8,6 +8,7 @@ On March 30th I went on a college visit at the University of Illinois at Urbanaâ
 
 <!-- split -->
 I really enjoyed touring the beautiful campus and hearing advice from actual students at the university.
+ <br>
  <img class="img-responsive" style="max-width:300px" src= "{{ site.baseurl }}/img/blog/collegevisit1.jpg"/>
  <br>
   <img class="img-responsive" style="max-width:300px" src= "{{ site.baseurl }}/img/blog/collegevisit2.jpg"/>
