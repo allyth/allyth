@@ -8,7 +8,7 @@ title: Blog
             <h1>Blog</h1>
         </div>
         
-        {% assign sortedPosts = (site.posts | sort: 'date') | reverse %}
+        {% assign sortedPosts = site.posts | sort: 'date' | reverse %}
             {% for post in sortedPosts %}
             <div class="col-sm-8">
                 <h2>
