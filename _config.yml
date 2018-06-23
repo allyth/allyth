@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://www.allyth.me
-title: Alexandra Maria Theodorescu
+title: Maria Alexandra Theodorescu
 email: 
 author: Alexandra
 description:
@@ -53,6 +53,8 @@ menu:
     url: /drawing/
   - text: Photography
     url: /photography/
+  - text: Poetry
+    url: /poetry/
   - text: Blog
     url: /blog/
   - text: About
