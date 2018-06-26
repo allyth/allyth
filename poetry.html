@@ -1,0 +1,24 @@
+---
+layout: page
+title: Poetry
+---
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Poetry</h1>
+        </div>
+        
+        {% assign sortedPoems = site.poems | sort: 'date' | reverse %}
+            {% for poem in sortedPoems %}
+            <div class="col-sm-8">
+                <h2>
+                    <a style="font-size: 25px" href="{{ site.baseurl }}{{ poem.url }}">{{ poem.title }}</a>
+                </h2>
+                <p>{{ poem.date | date: "%e %B %Y" }}</p>
+                <p>{{ poem.content | split: '<!-- split -->' | first }}</p>
+                <a class="btn btn-default" href="{{ site.baseurl }}{{ poem.url }}">Read this poem</a>
+            </div>
+            {% endfor %}
+    </div>
+  </div>
+<br>
