@@ -97,7 +97,7 @@ div.carousel-item {
     height: 300px;
 }
 
-.carousel-prev, .carousel-next {
+.carousel-prev, .carousel-next, .carousel-prev300, .carousel-next300 {
     color: white;
     font-size: 3em;
     position: absolute;
@@ -105,10 +105,10 @@ div.carousel-item {
     top: 120px;
 }
 
-.carousel-prev {
+.carousel-prev, .carousel-prev300 {
     left: 10px;
 }
 
-.carousel-next {
+.carousel-next, .carousel-next300 {
     right: 10px;
 }

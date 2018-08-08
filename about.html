@@ -75,34 +75,6 @@ title: About
                 <div class="carousel-next"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
             </div>
             <p>Credits: Dennis Zaremba, Marco Del Arca, Ryan Leshock and others.</p>
-            <script>
-            $('div.carousel').slick({
-                infinite: true,
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                prevArrow: $('.carousel-prev'),
-                nextArrow: $('.carousel-next'),
-                responsive: [
-                    {
-                        breakpoint: 900,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 2
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-            </script>
-            <img class="img img-responsive" src="/img/site/aliciasphotography.jpg" />
-            <br>
-            <h3>Visual Media</h3>
             
         </div>
         
@@ -125,6 +97,26 @@ title: About
         </div>
     </div>
     
+    <h3>Alicia's Photography</h3>
+    <div class="row">
+        <div class="col-md-12">
+                <div class="carousel-container">
+                    <div class="carousel300">
+                        <img class="img img-responsive" src="/img/site/aliciasphotography2.jpg" />
+                        <img class="img img-responsive" src="/img/site/aliciasphotography3.jpg" />
+                        <img class="img img-responsive" src="/img/site/aliciasphotography4.jpg" />
+                        <img class="img img-responsive" src="/img/site/aliciasphotography5.jpg" />
+                        <img class="img img-responsive" src="/img/site/aliciasphotography6.jpg" />
+                        <img class="img img-responsive" src="/img/site/aliciasphotography.jpg" />
+                    </div>
+
+                    <div class="carousel-prev300"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
+                    <div class="carousel-next300"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                </div>
+        </div>
+    </div>
+
+    <h3>Visual Media</h3>
     <div class="row">
         <div class="col-md-6">
             <img class="img img-responsive" src="/img/site/psedit.jpg" />
@@ -144,3 +136,54 @@ title: About
         </div>
     </div> -->
 </div>
+
+<script>
+    $('div.carousel').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        prevArrow: $('.carousel-prev'),
+        nextArrow: $('.carousel-next'),
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $('div.carousel300').slick({
+        variableWidth: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        prevArrow: $('.carousel-prev300'),
+        nextArrow: $('.carousel-next300'),
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+</script>
