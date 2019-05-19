@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Naperville Woman's Club Art Fair
+title: NVHS Art Fair
 image: 
 description:
 ---
