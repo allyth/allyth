@@ -19,3 +19,11 @@ description:
   </div>
 </div>
 
+div class="container1">
+  <div class="row">
+    <div class="col-sm-3">
+      <img class="img img-responsive" src= "{{ site.baseurl }}/img/blog/paintingaward1.jpg"/>
+    </div>    
+  </div>
+</div>
+
