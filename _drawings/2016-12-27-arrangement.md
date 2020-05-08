@@ -1,7 +1,7 @@
 ---
-title: Arrangement
+title: Arrangement, December 2016
 showTitle: true
 image: /img/drawings/arrangement.jpg
 materials:
-description:
+description: December 2016
 ---
