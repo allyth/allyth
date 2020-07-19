@@ -15,12 +15,38 @@ body {
     background-size: cover;
     background-position: center 50%;
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
-.intro-message {
+.intro-message-sm {
     position: relative;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.68);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6306897759103641) 38%, rgba(0,0,0,0) 100%);
+    margin-left: -10px;
+    margin-top:275px;
+    padding-left: 25px;
+}
+
+.intro-message-lg {
+    position: relative;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.68);
+    background: linear-gradient(90deg, rgba(0,0,0,0.6306897759103641) 38%, rgba(0,0,0,0) 100%);
+    margin-left: -50px;
+    margin-top:275px;
+    padding-left: 50px;
+}
+.intro-message-lg p {
+    line-height: 1.2;
+    margin-right: 250px;
+}
+
+.intro-message-sm p{
+    line-height: 1.2;
+    margin-right: 150px;
+}
+
+.intro-message-sm p.author, .intro-message-lg p.author {
+    text-align: right;
 }
 
 .intro-message > h1 {
@@ -28,12 +54,12 @@ body {
     line-height: 70px;
     margin-top: 80px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .intro-message > h2 {
     font-family: "Arima Madurai","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.8em;
+    font-size: 1em;
     /*font-style: italic;*/
     /*font-weight: bold;*/
     padding: 10px;
