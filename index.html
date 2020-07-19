@@ -32,10 +32,10 @@
 
             <div class="carousel-container">
                 <div class="carousel">
-                    {% assign sortedDrawings = site.drawings  | sort: 'date' | reverse %}
-                    {% for drawing in sortedDrawings %}
-                        {% if drawing.showOnHomepage %}
-                        <div style="background-image: url({{ site.baseurl }}{{ drawing.image }})" class="carousel-item">
+                    {% assign sortedVisualArts = site.visualArts | sort: 'date' | reverse %}
+                    {% for sortedVisualArt in sortedVisualArts %}
+                        {% if sortedVisualArt.showOnHomepage %}
+                        <div style="background-image: url({{ site.baseurl }}{{ sortedVisualArt.image }})" class="carousel-item">
                         </div>
                         {% endif %}
                     {% endfor %}

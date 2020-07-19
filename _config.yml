@@ -10,23 +10,17 @@ description:
 collections:
   posts:
     output: true
-  drawings:
+  visualArts:
     output: false
   photos:
     output: false
-  poems:
-    output: true
 
 defaults:
   - scope:
-      collection: drawings
+      collection: visualArts
     values:
       showTitle: true
       showOnHomepage: false
-  - scope:
-      collection: photos
-    values:
-      showTitle: true
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -40,23 +34,11 @@ permalink: pretty
 #   3rd Party Settings    #
 # ----------------------- #
 
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
-
 menu:
   - text: Home
     url: /
-  - text: Drawing
-    url: /drawing/
-  - text: Photography
-    url: /photography/
-  - text: Poetry
-    url: /poetry/
+  - text: Visual Arts
+    url: /visual-arts/
   - text: Blog
     url: /blog/
   - text: About
