@@ -1,5 +1,5 @@
 ---
-title: Winter, December 2016
+title: December 2016
 showTitle: true
 showOnHomepage: true
 image: /img/drawings/blackandwhiteeye.jpg
