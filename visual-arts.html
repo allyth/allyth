@@ -3,10 +3,14 @@ layout: page
 title: Visual Arts
 ---
 <div class="container">
+    <h2>Visual Arts</h2>
     <div class="row about">
+        <div class="col-sm-6">
+            <div class="videoWrapper-16-9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LqMalt72bg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
         <div class="col-sm-12">
-            <h2>Visual Arts</h2>
-
             <ul class="gallery">
             {% assign sortedVisualArts = site.visualArts | sort: 'date' | reverse %}
             {% for sortedVisualArt in sortedVisualArts %}
